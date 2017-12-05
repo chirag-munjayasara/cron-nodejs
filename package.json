@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      "crontab-ui",
+      ""
+    ]
+  ],
+  "_from": "crontab-ui@latest",
+  "_id": "crontab-ui@0.3.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/crontab-ui",
+  "_nodeVersion": "7.7.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/crontab-ui-0.3.3.tgz_1509475710390_0.3808341887779534"
+  },
+  "_npmUser": {
+    "email": "alseambusher@gmail.com",
+    "name": "alseambusher"
+  },
+  "_npmVersion": "4.1.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "crontab-ui",
+    "raw": "crontab-ui",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/crontab-ui/-/crontab-ui-0.3.3.tgz",
+  "_shasum": "429e9f7b126e8b80ca149878baf0f56e124ec696",
+  "_shrinkwrap": null,
+  "_spec": "crontab-ui",
+  "_where": "",
+  "author": {
+    "name": "Suresh Alse"
+  },
+  "bin": {
+    "crontab-ui": "bin/crontab-ui.js",
+    "crontab-ui-mailer": "bin/crontab-ui-mailer.js"
+  },
+  "bugs": {
+    "url": "https://github.com/alseambusher/crontab-ui/issues"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "connect-busboy": "latest",
+    "cron-parser": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "mime-types": "latest",
+    "moment": "latest",
+    "nedb": "latest",
+    "nodemailer": "latest"
+  },
+  "description": "Easy and safe way to manage your crontab file",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "429e9f7b126e8b80ca149878baf0f56e124ec696",
+    "tarball": "https://registry.npmjs.org/crontab-ui/-/crontab-ui-0.3.3.tgz"
+  },
+  "engines": {
+    "node": "latest"
+  },
+  "gitHead": "6b186a09bb90e6b5394dfde46844b4cf1db3bb76",
+  "homepage": "https://github.com/alseambusher/crontab-ui#readme",
+  "keywords": [
+    "Crontab",
+    "node"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "alseambusher",
+      "email": "alseambusher@gmail.com"
+    }
+  ],
+  "name": "crontab-ui",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alseambusher/crontab-ui.git"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "version": "0.3.3"
+}
